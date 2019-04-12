@@ -193,9 +193,9 @@ if __name__ == "__main__":
     import pprint
     from environment import environment
 
-    print()
-    print("Environment=%s" % environment)
-    print("--------------------------------")
+    # print()
+    # print("Environment=%s" % environment)
+    # print("--------------------------------")
     pp = pprint.PrettyPrinter(indent=4)
     pp.pprint(config())
 
